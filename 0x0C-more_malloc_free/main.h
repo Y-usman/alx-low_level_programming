@@ -1,8 +1,6 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
-i#include <stdlib.h>
-
 int str_len(char *str);
 void *_calloc(unsigned int bytes, unsigned int size);
 void add_arrays(int *mul_result, int *sum_result, int len_r);
