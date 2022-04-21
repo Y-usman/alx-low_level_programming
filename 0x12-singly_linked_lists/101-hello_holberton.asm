@@ -1,5 +1,5 @@
 section .data
-    text db "Hello, world!", 10
+    text db "Hello, Holberton!", 10
 
 section .text
 global _start
@@ -12,4 +12,4 @@ _start:
 
     mov rax, 60
     mov rdi, 0
-    syscall 
+    syscall
